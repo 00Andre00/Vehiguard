@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appvehiculos.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.appvehiculos.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_vehiculos"
+        android:name="com.example.appvehiculos.ui.vehiculos.VehiculosFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_vehiculos" />
+
+    <fragment
+        android:id="@+id/nav_vehiculoscrear"
+        android:name="com.example.appvehiculos.ui.vehiculocrear.VehiculoCrearFragment"
+        android:label="@string/menu_vehiculoscrear"
+        tools:layout="@layout/fragment_vehiculocrear" />
+
+    <fragment
+        android:id="@+id/nav_promociones"
+        android:name="com.example.appvehiculos.ui.promociones.PromocionesFragment"
+        android:label="@string/menu_promociones"
+        tools:layout="@layout/fragment_promociones" />
+
+    <fragment
+        android:id="@+id/nav_promocrear"
+        android:name="com.example.appvehiculos.ui.promocrear.PromocrearFragment"
+        android:label="Crear Promoción"
+        tools:layout="@layout/fragment_promocrear" />
+
+    <fragment
+        android:id="@+id/nav_promoactivas"
+        android:name="com.example.appvehiculos.ui.promoactivas.PromoactivasFragment"
+        android:label="Promociones Activas"
+        tools:layout="@layout/fragment_promoactivas" />
+
+    <fragment
+        android:id="@+id/nav_documentos"
+        android:name="com.example.appvehiculos.ui.documentos.DocumentosFragment"
+        android:label="Documentos"
+        tools:layout="@layout/fragment_documentos" />
+</navigation>

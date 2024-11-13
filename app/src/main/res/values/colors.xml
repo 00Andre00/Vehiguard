@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color> <!-- Algunas letras -->
+    <color name="red">#FF0000</color> <!-- Botones -->
+
+    <color name="colorPrimary">#000000</color> <!-- Toolbar -->
+    <color name="colorPrimaryDark">#ffffff</color> <!-- Tema(borde de la pantalla) -->
+    <color name="colorAccent">#000000</color> <!-- botoncitos de texto -->
+    <color name="white">#ffffff</color><!--Fondo de la pantalla background-->
+</resources>

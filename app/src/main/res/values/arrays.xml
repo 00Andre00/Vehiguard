@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="duracion_promocion">
+        <item>1 día</item>
+        <item>1 semana</item>
+        <item>2 semanas</item>
+        <!-- Agrega más opciones según sea necesario -->
+    </string-array>
+
+    <string-array name="tipo_vehiculo">
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Taxi</item>
+        <!-- Agrega más opciones según sea necesario -->
+    </string-array>
+</resources>

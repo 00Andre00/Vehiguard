@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/spend_icon"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_vehiculos"
+            android:icon="@drawable/vehicle_icon"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_vehiculoscrear"
+            android:icon="@drawable/vehicle_icon"
+            android:title="Añadir Vehiculos" />
+        <item
+            android:id="@+id/nav_promociones"
+            android:icon="@drawable/promotion_icon"
+            android:title="@string/menu_promociones" />
+        <item
+            android:id="@+id/nav_promocrear"
+            android:icon="@drawable/promotion_icon"
+            android:title="Crear Promoción"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_promoactivas"
+            android:icon="@drawable/promotionactive_icon"
+            android:title="Promociones Activas"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_documentos"
+            android:icon="@drawable/document_icon"
+            android:title="Documentos" />
+    </group>
+</menu>

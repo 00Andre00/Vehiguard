@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Appvehiculos" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Cambia a tu color deseado -->
+        <item name="colorAccent">@color/colorPrimary</item> <!-- botoncitos de texto -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item> <!-- Tema(borde de la pantalla) -->
+    </style>
+
+    <style name="Theme.Appvehiculos" parent="Base.Theme.Appvehiculos" />
+
+    <style name="Theme.Appvehiculos.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Appvehiculos.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Appvehiculos.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

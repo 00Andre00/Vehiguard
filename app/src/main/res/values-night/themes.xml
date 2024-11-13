@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Appvehiculos" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item> <!-- botoncitos de texto -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item> <!-- Tema(borde de la pantalla) -->
+    </style>
+</resources>
